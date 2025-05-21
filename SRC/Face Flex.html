@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            #container
+            {
+                display:flex;
+                flex-direction: column;
+                background-color: bisque;
+                height: 600px;
+            }
+
+            #container>div
+            {
+                margin: 10px;
+            }
+
+            #row1
+            {
+                flex: 33%;
+                
+            }
+
+            #row2
+            {
+                flex: 33%;
+                align-self: center;
+                justify-content: center;
+            }
+
+            #row3
+            {
+              
+                justify-content: flex-start;
+            }
+
+            #left
+            {
+                width:33%;
+            }
+
+            #right
+            {
+                width:33%;
+                float: right;
+            }
+
+            #row3>img
+            {
+                width:100%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="container">
+        <div id="row1">
+                <img id="left" src="../RESOURCES/left eye.jfif" alt="left eye">
+                <img id="right" src="../RESOURCES/right eye.jfif" alt="right eye">
+        </div>
+        
+        <div id="row2">
+                <img src="../RESOURCES/nose.jfif" alt="nose">
+        </div>
+
+        <div id="row3">
+            <img src="../RESOURCES/smile.png" alt="smile">
+        </div>
+        </div>
+        
+    </body>
+</html>

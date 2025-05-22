@@ -6,7 +6,6 @@
                 display:flex;
                 flex-direction: column;
                 background-color: bisque;
-                height: 600px;
             }
 
             #container>div
@@ -14,28 +13,10 @@
                 margin: 10px;
             }
 
-            #row1
-            {
-                flex: 33%;
-                
-            }
-
-            #row2
-            {
-                flex: 33%;
-                align-self: center;
-                justify-content: center;
-            }
-
-            #row3
-            {
-              
-                justify-content: flex-start;
-            }
-
             #left
             {
                 width:33%;
+                float: left;
             }
 
             #right
@@ -44,9 +25,16 @@
                 float: right;
             }
 
+            #row2>img
+            {
+                width:33%;
+                margin-left: 33%;
+            }
+
             #row3>img
             {
                 width:100%;
+                aspect-ratio: 3 / 1;
             }
             
         </style>

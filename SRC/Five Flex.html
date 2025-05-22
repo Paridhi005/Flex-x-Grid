@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            #container
+            {
+                display:flex;
+                flex-direction: column;
+                background-color: bisque;
+            }
+
+            #r1, #r2, #r3
+            {
+                flex:33%;
+            }
+
+            img
+            {
+                width: 30%;
+                height: 30%;
+                margin: 1.5%; 
+            }
+
+            #r1>img, #r3>img
+            {
+                margin-left: 34.5%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="r1">
+                <img src="../RESOURCES/up.png" alt="up">
+            </div>
+            <div id="r2">
+                    <img id="item1" src="../RESOURCES/left.png" alt="left">
+                    <img id="item2" src="../RESOURCES/play.jfif" alt="play">
+                    <img id="item3"src="../RESOURCES/right.png" alt="right">
+            </div>
+            <div id="r3">
+                <img src="../RESOURCES/down.png" alt="down">
+            </div>
+        </div>
+    </body>
+</html>
